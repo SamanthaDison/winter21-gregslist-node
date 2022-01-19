@@ -1,6 +1,4 @@
 import { Schema } from "mongoose";
-import { Mongoose } from "mongoose";
-import { CarSchema } from "./Car";
 
 export const JobSchema = new Schema({
     title: { type: String, required: true },
